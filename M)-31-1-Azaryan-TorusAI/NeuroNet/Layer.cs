@@ -36,7 +36,7 @@ namespace M__31_1_Azaryan_TorusAI.NeuroNet
             numberOfPreviousNeurons = nopn;
             Neurons = new Neuron[non];
             layerName = nmLayer;
-            pathDirWeights = AppDomain.CurrentDomain + "memory\\";
+            pathDirWeights = AppDomain.CurrentDomain.BaseDirectory + "memory\\";
             pathFileWeights = pathDirWeights + layerName + "_memory.csv";
 
             double[,] Weights;
